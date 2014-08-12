@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  #main_menu {
+    display: inline-block;
+    list-style-type: none;
+    border-color: #6d6d6d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+
+              
+  }
+  #main_menu > li{
+    display: inline-block;
+    margin-left: -2px;
+    background-color: #CFCFCF;
+    position: relative;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: #CFCFCF;
+    border-width: 1px;
+                                    
+
+  }
+  #main_menu > li > a {
+    padding: 6px 20px;
+    font: italic 18px/35px Georgia;
+
+  }
+  #main_menu > li:first-child { 
+    margin-left: 0;
+  }
+
+  #main_menu > li > ul {
+    list-style-type: none;
+    width: 180px;
+    border-color: #6d6d6d;
+    padding: 10px;
+    border-width: 1px;
+    display: none;
+    border-style: solid;
+    background-color: white;
+    position: absolute;
+    top: 35px;
+    left: -1px;
+  }
+  #main_menu > li > ul > li:first-child {
+    border-top-style: none;
+  }
+  #main_menu > li > ul > li {
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #cfcfcf;
+  }
+
+  #main_menu > li > ul > li > a {
+    font: italic 14px/24px Georgia;
+    padding: 5px;
+    display: block;
+                                  
+  }
+  #main_menu > li > ul > li > a:hover {
+    color: #bd0707;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #main_menu > li:hover > ul {
+    display: block;
+    z-index: -1;
+  }
+
+  #main_menu > li:hover > a {
+    color: #8c8c8c;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+  }
+
+  #main_menu > li:hover {
+    background-color: white;
+    border-color: black;                      
+  }
+  </style>
+</head>
+
+<body>
+  <ul id="main_menu" >
+    <li>
+      <a href="#">Home</a>
+      <ul>
+        <li><a href="#">Example 1</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+        <li><a href="#">Example 4</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">About Us</a>
+      <ul>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+        <li><a href="#">Example 4</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Our Services</a>
+
+      <ul>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+        <li><a href="#">Example 4</a></li>
+      </ul>
+    </li>  
+    <li>
+      <a href="#">Our Portfolio</a>
+      <ul>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+        <li><a href="#">Example 4</a></li>      
+      </ul>
+    </li>
+    <li>
+      <a href="#">Contact Us</a>
+      <ul>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 2</a></li>
+        <li><a href="#">Example 3</a></li>
+        <li><a href="#">Example 4</a></li>
+      </ul>
+    </li>  
+  </ul>
+</body>
+</html>
