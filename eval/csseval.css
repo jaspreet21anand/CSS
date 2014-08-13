@@ -1,0 +1,196 @@
+#outermost {
+  width: 800px;
+  margin: auto;
+  font-family: tahoma; 
+}
+
+#header {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+#leftheader {
+  float: left;
+  width: 50%;
+}
+
+#leftheader h {
+  color: black;
+  font: 40px tahoma;
+}
+
+#rightheader img, #upperleftbody img, #lowerleftbody img, #rightbody img {
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
+}
+
+#rightheader {
+  float: left;
+  width: 50%;
+  vertical-align: top;
+  text-align: right;
+}
+#menu {
+  overflow: hidden;
+  border-bottom: 5px solid #ededed;
+}
+
+#menu ul {
+  
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  z-index: -1;
+  margin-bottom: 0;
+  
+}
+
+#menu ul li {
+  float: left;
+  padding: 0 15px;
+  padding-bottom: 3px;
+  border-left: 2px solid blue;
+
+}
+
+#menu ul li:hover {
+  background-color: orange;
+  border-left: 2px solid orange;
+}
+#menu ul li:hover + li {
+  border-left: 2px solid orange;
+}
+
+#menu ul li a:link {
+  color: #006699;
+  font: 18px tahoma;
+  text-decoration: none;
+}
+
+#menu ul li:first-child {
+  border-left: none;
+  padding-left: 5px;
+}
+
+#promo {
+  overflow: hidden;
+  background-image: url('rightpromobackground.png');
+}
+
+#leftpromo {
+  padding: 30px 0 20px 10px;
+  width: 58%;
+  float: left;
+  font: normal 30px tahoma;
+  color: white;
+}
+
+#leftpromo p {
+  font: 17px tahoma;
+}
+
+#leftpromo span {
+  font: 20px tahoma;
+  color: white
+}
+
+#rightpromo {
+  width: 40%;
+  height: 100px;
+  float: left;
+}
+
+#body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+  background-image: url('lefttbodybackground.png'); 
+}
+
+#leftbody {
+  float: left;
+  width: 67%;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+
+#upperleftbody img {
+  vertical-align: bottom;
+}
+
+#upperleftbody div:first-child, #lowerleftbody div:first-child, #rightbody div:first-child {
+  border-bottom: 2px solid #ededed;
+}
+
+#upperleftbody div p:last-child {
+  font: 30px tahoma;
+}
+
+#rightbody {
+
+  float: left;
+  background-color: #e0e0e0;
+  width: 28%;
+  padding: 0 10px;
+}
+
+#lowerleftbody, #upperleftbody { 
+
+  overflow: hidden;
+}
+
+ul.col {
+  list-style-image: url('arrow.png'); 
+  padding-right: 26px;
+  float: left;
+}
+
+#leftbody > div > div:last-child {
+  padding: 0 10px;
+}
+
+#rightbody p > h {
+  color: orange;
+}
+
+#footer {
+  background-color: orange;
+  padding: 10px 10px;
+  overflow: hidden;
+  font: 12px tahoma;
+  color: #D2691E;
+}
+
+#footer ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+  
+}
+
+#footer ul li {
+  float: left;
+  padding: 0 5px;
+}
+
+#footer a:link {
+  color: white;
+  font: 13px tahoma;
+  text-decoration: none;
+}
+
+#designer {
+
+  float: right;
+}
+
+#copyright {
+  padding-left: 5px;
+  float: left;
+}
