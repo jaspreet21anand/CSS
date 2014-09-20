@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+#outline {
+  width: 1015px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#header {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  overflow: hidden;
+  border-bottom: 2px solid #db2927;
+}
+
+#header-left {
+  padding-left: 15px;
+  float: left;
+  width: 500px;
+  text-align: left;
+}
+
+#header-right {
+  padding-right: 5px;
+  float: left;
+  width: 495px;
+  padding-top: 54px;
+  text-align: right;
+  font: 13px tahoma;
+  vertical-align: bottom;
+}
+#header-right a {
+  color: #045198;
+}
+#body {
+  padding-top: 50px;
+  position: relative;
+}
+#body > h {
+  padding-left: 235px;
+  font: 18px tahoma;
+  color: #2c286d;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#form {
+  margin: 0px auto;
+  border: 1px solid #bcbcbc;
+  background: #ececec;
+  padding: 20px 25px;
+  width: 500px;
+  overflow: hidden;
+}
+
+.inputpair {
+  padding: 10px 0;
+  float: left;
+  clear: left;
+}
+
+.label {
+  font: 14px tahoma;
+  width: 110px;
+  padding-top: 4px;
+  padding-right: 10px;
+  text-align: right;
+  float: left;
+}
+
+.input {
+  float: left;
+}
+.radio {
+  padding-top: 3px;
+}
+
+.input input[type="textbox"], input[type="password"] {
+  width: 360px;
+  height: 25px;
+  border: 1px solid #b9b9b9;
+}
+
+.input label {
+  padding-right: 40px;
+  font: 13px tahoma;
+  color: #6f6f6f;
+}
+
+select {
+  width: 110px;
+  margin-right: 10px;
+}
+
+.placeholder {
+  color: #6f6f6f;
+}
+
+option {
+  font: 13px tahoma;
+}
+
+textarea {
+  width: 360px;
+  height: 135px;
+  border-color: #b9b9b9;
+}
+
+input[type="submit"] {
+  background-color: #dc2927;
+  border-color: #a10200;
+  width: 132px;
+  height: 32px;
+  font: 14px tahoma;
+  color: white;
+  text-align: center;
+}
