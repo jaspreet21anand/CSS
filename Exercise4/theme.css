@@ -10,10 +10,10 @@ body {
 }
 
 li {
+  font: 10px arial;
   display: inline;
-  font-size: 10px;
-  padding-left: 15px;
-  color: #cecece;
+  padding-left: 25px;
+  color: #A3A3A3;
 }
 
 #container {
@@ -26,14 +26,18 @@ li {
 }
 
 #top > h3 {
+  font: bold 14px arial;
+  color: #4E4C4D;
   display: inline;
   padding-right: 18px;
-  padding-left: 100px;
+  padding-left: 160px;
   border-right: 1px solid #eeeeee;
 }
 
 #top > img {
   float: right;
+  padding-top: 15px;
+  padding-right: 160px;
   position: relative;
   left: -20px;
 }
